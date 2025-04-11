@@ -91,7 +91,7 @@ class UserService extends ApiService {
   }
 
   getUnavailableAircraftPage(page, successCallback, failureCallback) {
-    this.fetch(Config.API_URL + ApiPath.USER_AIRCRAFT + "?filter=unavailable&pg=" + page + "&pz=10", {
+    this.fetch(Config.API_URL + ApiPath.USER_AIRCRAFT + "?filter=unavailable&pg=" + page + "&pz=50", {
       method: 'GET',
     }).then((response) => {
       successCallback(response)

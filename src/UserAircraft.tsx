@@ -78,15 +78,15 @@ function AircraftList(props) {
 		</table>
 	}
 
-	let unavailableBatteryContent: JSX.Element;
+	let unavailableAircraftContent: JSX.Element;
 	let unavailableIcon: JSX.Element;
 	if (props.showUnavailable === false) {
 		unavailableIcon = Icons.ADVANCED_V;
 	} else {
 		if (props.unavailablePage.content.length === 0) {
-			unavailableBatteryContent = <NoResults message='No unavailable aircraft found'/>
+			unavailableAircraftContent = <NoResults message='No unavailable aircraft found'/>
 		} else {
-			unavailableBatteryContent = <table className='flight-list'>
+			unavailableAircraftContent = <table className='flight-list'>
 				<tbody>
 				{props.unavailablePage.content.map((craft) => <AircraftRow key={craft.id} value={craft.id} aircraft={craft}/>)}
 				</tbody>
@@ -120,7 +120,7 @@ function AircraftList(props) {
 			</div>
 			{content}
 			<button className='icon centered' onClick={toggleUnavailable}>{unavailableIcon}</button>
-			{unavailableBatteryContent}
+			{unavailableAircraftContent}
 		</div>
 	)
 
