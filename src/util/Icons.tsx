@@ -57,7 +57,7 @@ class Icons {
 	ADD = <FontAwesomeIcon icon={faPlus}/>
 	ADVANCED = <FontAwesomeIcon icon={faEllipsisH}/>
 	ADVANCED_V = <FontAwesomeIcon icon={faEllipsisV}/>
-	AIRCRAFT_DECOMMISSIONED = <FontAwesomeIcon icon={faBurst}/>
+	AIRCRAFT_DECOMMISSIONED = <FontAwesomeIcon icon={faPlaneSlash}/>
 	AIRCRAFT_INOPERATIVE = <FontAwesomeIcon icon={faPlaneSlash}/>
 	AIRCRAFT_DESTROYED = <FontAwesomeIcon icon={faBurst}/>
 	BACK = <FontAwesomeIcon icon={faChevronLeft}/>
