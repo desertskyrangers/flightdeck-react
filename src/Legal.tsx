@@ -1,6 +1,6 @@
 import React from "react";
 import Icons from "./util/Icons";
-import {useNavigate} from "react-router-dom";
+import {useNavigate} from "react-router";
 
 export default function Legal() {
 	const navigate = useNavigate();

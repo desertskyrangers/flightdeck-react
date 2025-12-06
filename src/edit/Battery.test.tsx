@@ -1,6 +1,6 @@
 import React from "react"
 import {render, screen} from "@testing-library/react"
-import {MemoryRouter as Router, Route, Routes} from "react-router-dom"
+import {MemoryRouter as Router, Route, Routes} from "react-router"
 import AppPath from "../AppPath"
 import Battery from "./Battery"
 

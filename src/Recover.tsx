@@ -2,7 +2,7 @@ import React from "react";
 import EntryField from "./part/EntryField";
 import {useState} from "react";
 import Notice from "./part/Notice";
-import {useNavigate} from "react-router-dom";
+import {useNavigate} from "react-router";
 import Icons from "./util/Icons";
 import AuthService from "./api/AuthService";
 

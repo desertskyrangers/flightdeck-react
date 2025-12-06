@@ -1,5 +1,5 @@
 import './css/app.css';
-import {BrowserRouter as Router, Navigate, Route, Routes} from 'react-router-dom';
+import {BrowserRouter as Router, Navigate, Route, Routes} from 'react-router';
 import TokenService from "./api/TokenService";
 import ApiPath from "./AppPath";
 import AppPath from "./AppPath";

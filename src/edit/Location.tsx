@@ -1,4 +1,4 @@
-import {useNavigate, useParams} from "react-router-dom";
+import {useNavigate, useParams} from "react-router";
 import React, {useCallback, useEffect, useRef, useState} from "react";
 import Icons from "../util/Icons";
 import EntryField from "../part/EntryField";

@@ -1,6 +1,6 @@
 import React from "react";
 import {render, screen} from "@testing-library/react";
-import {MemoryRouter as Router} from "react-router-dom";
+import {MemoryRouter as Router} from "react-router";
 import Password from "./Password";
 
 test('renders current password field', () => {

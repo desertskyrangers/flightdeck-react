@@ -6,7 +6,7 @@ import UserService from "../api/UserService";
 import LookupService from "../api/LookupService";
 import EntryField from "../part/EntryField";
 import Icons from "../util/Icons";
-import {useNavigate} from "react-router-dom";
+import {useNavigate} from "react-router";
 
 export default function Profile(props) {
 

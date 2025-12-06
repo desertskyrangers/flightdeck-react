@@ -1,4 +1,4 @@
-import {useNavigate, useParams} from "react-router-dom";
+import {useNavigate, useParams} from "react-router";
 import React, {useEffect, useLayoutEffect, useRef, useState} from "react";
 import BatteryService from "../api/BatteryService";
 import LookupService from "../api/LookupService";

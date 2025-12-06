@@ -1,7 +1,7 @@
 import React, {useEffect, useRef, useState} from "react"
 import UserService from "./api/UserService"
 import Notice from "./part/Notice"
-import {useParams} from "react-router-dom"
+import {useParams} from "react-router"
 import './css/dashboard.css'
 import Times from "./util/Times";
 import Ago from "./part/Ago";

@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import {useNavigate} from "react-router-dom";
+import {useNavigate} from "react-router";
 import Icons from "./util/Icons";
 import Notice from "./part/Notice";
 import EntrySelect from "./part/EntrySelect";

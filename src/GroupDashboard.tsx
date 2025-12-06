@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 import {FlightStats, FlightStatsHeader} from "./part/FlightStats";
 import GroupService from "./api/GroupService";
-import {Link} from "react-router-dom";
+import {Link} from "react-router";
 import AppPath from "./AppPath";
 import Times from "./util/Times";
 import Icons from "./util/Icons";

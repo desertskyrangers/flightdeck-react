@@ -3,7 +3,7 @@ import Times from "./util/Times"
 import UserService from "./api/UserService"
 import ApiPath from "./AppPath"
 import AppPath from "./AppPath"
-import {Link, useNavigate} from "react-router-dom"
+import {Link, useNavigate} from "react-router"
 import './css/dashboard.css'
 import Ago from "./part/Ago";
 import {FlightStats, FlightStatsHeader} from "./part/FlightStats"

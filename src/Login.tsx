@@ -3,7 +3,7 @@ import Notice from "./part/Notice";
 
 import React, {useState} from 'react';
 import AuthService from "./api/AuthService";
-import {Link, useNavigate} from 'react-router-dom';
+import {Link, useNavigate} from 'react-router';
 import ApiPath from "./AppPath";
 import AppPath from "./AppPath";
 import Header from "./Header";

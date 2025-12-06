@@ -1,6 +1,6 @@
 import React, {useEffect, useRef, useState} from "react";
 import './css/timer.css';
-import {useNavigate} from "react-router-dom";
+import {useNavigate} from "react-router";
 import Icons from "./util/Icons";
 import AppPath from "./AppPath";
 

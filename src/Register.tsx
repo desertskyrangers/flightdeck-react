@@ -4,7 +4,7 @@ import AuthService from "./api/AuthService";
 import Notice from "./part/Notice";
 
 import React, {useLayoutEffect, useRef, useState} from "react";
-import {Link, useNavigate} from "react-router-dom";
+import {Link, useNavigate} from "react-router";
 import ApiPath from "./AppPath";
 import AppPath from "./AppPath";
 import AppConfig from "./AppConfig";

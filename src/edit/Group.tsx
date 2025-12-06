@@ -1,7 +1,7 @@
 import EntrySelect from "../part/EntrySelect"
 import React, {useCallback, useEffect, useRef, useState} from "react"
 import LookupService from "../api/LookupService"
-import {useNavigate, useParams} from "react-router-dom"
+import {useNavigate, useParams} from "react-router"
 import EntryField from "../part/EntryField"
 import Icons from "../util/Icons"
 import GroupService from "../api/GroupService";

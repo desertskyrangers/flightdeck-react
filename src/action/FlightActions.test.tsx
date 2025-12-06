@@ -1,6 +1,6 @@
 import React from "react";
 import {render, screen} from '@testing-library/react';
-import {MemoryRouter as Router} from "react-router-dom";
+import {MemoryRouter as Router} from "react-router";
 import FlightActions from "./FlightActions";
 
 test('renders time a flight button', () => {

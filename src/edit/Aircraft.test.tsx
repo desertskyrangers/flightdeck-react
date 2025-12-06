@@ -1,5 +1,5 @@
 import React from "react";
-import {MemoryRouter as Router, Route, Routes} from "react-router-dom";
+import {MemoryRouter as Router, Route, Routes} from "react-router";
 import Aircraft, {calcAspectRatio, calcMeanAirfoilChord, calcWingCubeLoading, calcWingLoading} from "./Aircraft";
 import AppPath from "../AppPath";
 import {render, screen} from "@testing-library/react";

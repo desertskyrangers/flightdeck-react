@@ -3,7 +3,7 @@ import Notice from "../part/Notice";
 import Icons from "../util/Icons";
 import DeleteWithConfirm from "../part/DeleteWithConfirm";
 import React, {useCallback, useEffect, useLayoutEffect, useRef, useState} from "react";
-import {useNavigate, useParams} from "react-router-dom";
+import {useNavigate, useParams} from "react-router";
 import UserService from "../api/UserService";
 import EntrySelect from "../part/EntrySelect";
 import AppConfig from "../AppConfig";

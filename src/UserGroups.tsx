@@ -3,7 +3,7 @@ import React, {useEffect, useState} from "react";
 import NoResults from "./part/NoResults";
 import Icons from "./util/Icons";
 import Notice from "./part/Notice";
-import {useNavigate} from "react-router-dom";
+import {useNavigate} from "react-router";
 import AppPath from "./AppPath";
 import UserService from "./api/UserService";
 import EntrySelect from "./part/EntrySelect";

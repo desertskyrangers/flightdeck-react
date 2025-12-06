@@ -1,6 +1,6 @@
 import Icons from './util/Icons'
 import './css/nav.css'
-import {Link} from "react-router-dom";
+import {Link} from "react-router";
 import AppPath from "./AppPath";
 import React from 'react';
 

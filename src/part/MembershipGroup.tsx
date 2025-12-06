@@ -1,4 +1,4 @@
-import {useNavigate} from "react-router-dom";
+import {useNavigate} from "react-router";
 import AppPath from "../AppPath";
 import MembershipIcon from "./MembershipStatusIcon";
 import {useCallback, useEffect, useState} from "react";

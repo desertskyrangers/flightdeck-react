@@ -1,5 +1,5 @@
 import React, {useLayoutEffect, useRef, useState} from "react";
-import {useLocation, useNavigate} from "react-router-dom";
+import {useLocation, useNavigate} from "react-router";
 import EntryField from "./part/EntryField";
 import Icons from "./util/Icons";
 import Notice from "./part/Notice";

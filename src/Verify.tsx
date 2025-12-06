@@ -1,7 +1,7 @@
 import React, {useEffect, useRef, useState} from "react";
 import Notice from "./part/Notice";
 import AuthService from "./api/AuthService";
-import {useNavigate, useParams} from "react-router-dom";
+import {useNavigate, useParams} from "react-router";
 import AppPath from "./AppPath";
 
 export default function Verify(props) {

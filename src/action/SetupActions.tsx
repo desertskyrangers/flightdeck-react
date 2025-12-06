@@ -1,6 +1,6 @@
 import React from "react";
 import AppPath from "../AppPath";
-import {useNavigate} from "react-router-dom";
+import {useNavigate} from "react-router";
 
 export default function SetupActions(props) {
 	const navigate = useNavigate();

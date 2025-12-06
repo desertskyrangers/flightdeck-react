@@ -2,7 +2,7 @@ import "../css/metrics.css"
 import Notice from "../part/Notice";
 import React, {useEffect, useRef, useState} from "react";
 import LookupService from "../api/LookupService";
-import {useNavigate, useParams} from "react-router-dom";
+import {useNavigate, useParams} from "react-router";
 import AircraftService from "../api/AircraftService";
 import Icons from "../util/Icons";
 import EntryField from "../part/EntryField";
